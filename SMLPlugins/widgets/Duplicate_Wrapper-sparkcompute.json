@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "spec-version": "1.0"
+  },
+  "configuration-groups": [
+    {
+      "label": "Duplicate",
+      "properties": [
+        {
+          "widget-type": "csv",
+          "label": "Partition Columns",
+          "name": "partCol"
+        },
+        {
+          "widget-type": "csv",
+          "label": "Order Columns",
+          "name": "ordCol"
+        },
+        {
+          "widget-type": "textbox",
+          "label": "Marker",
+          "name": "new_col"
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "schema",
+      "widget-type": "schema",
+      "widget-attributes": {
+        "schema-default-type": "string",
+        "schema-types": [
+          "LONG",
+          "LONG",
+          "INT"
+        ]
+      }
+    }
+  ]
+}
+
