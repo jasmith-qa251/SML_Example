@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ScalaSbtSettings">
-    <option name="vmParameters" value="-Duser.home=C:/Users/smithj1 -Dsbt.override.build.repos=true -Dsbt.boot.credentials=C:\Users\smithj1\.sbt\.credentials" />
-  </component>
-</project>
